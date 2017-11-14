@@ -11,6 +11,8 @@ namespace Vega.Persistence
         public DbSet<Vehicle> Vehicles {get; set;}
 
         public DbSet<Model> Models { get; set; } 
+
+        public DbSet<Photo> Photos { set; get; }
         public VegaDBContext(DbContextOptions<VegaDBContext> options):base(options)
         {
             

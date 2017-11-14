@@ -6,6 +6,7 @@ using Vega.Persistence;
 using Vega.Controllers.Resources;
 using Microsoft.EntityFrameworkCore;
 using Vega.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Vega.Controllers
 {
